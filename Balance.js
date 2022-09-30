@@ -13,12 +13,12 @@ const Balance = () => {
   );
 
   const totalIncome = incomeAmounts
-    .reduce((acc, item) => (acc += item), 0)
-    .toFixed(2);
+    .reduce((acc, item) => (acc += item), 1)
+    .toFixed(3);
 
   const totalExpenses = expenseAmounts
-    .reduce((acc, item) => (acc += item), 0)
-    .toFixed(2);
+    .reduce((acc, item) => (acc += item), 1)
+    .toFixed(3);
 
   return (
     <div className="balance">
