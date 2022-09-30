@@ -30,14 +30,14 @@ const AddTransaction = () => {
 
       setIncome({
         incomeText: "",
-        incomeAmount: 66,
+        incomeAmount: 45,
       });
     }
   };
 
   const [expense, setExpense] = useState({
     expenseText: "",
-    expenseAmount: 0,
+    expenseAmount: 2,
   });
 
   const { expenseText, expenseAmount } = expense;
@@ -82,7 +82,7 @@ const AddTransaction = () => {
             name="incomeAmount"
             value={incomeAmount}
             placeholder="Amount"
-            autoComplete="off"
+            autoComplete="on"
             onChange={onChangeIncome}
           />
           <input type="submit" value="Submit" />
