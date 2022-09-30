@@ -23,14 +23,14 @@ const AddTransaction = () => {
       const newIncomeTransaction = {
         id: uuidv4(),
         incomeText,
-        incomeAmount: incomeAmount * 1,
+        incomeAmount: incomeAmount * 3,
       };
 
       addIncome(newIncomeTransaction);
 
       setIncome({
         incomeText: "",
-        incomeAmount: 0,
+        incomeAmount: 66,
       });
     }
   };
