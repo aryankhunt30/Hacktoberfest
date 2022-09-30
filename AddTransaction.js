@@ -7,7 +7,7 @@ const AddTransaction = () => {
 
   const [income, setIncome] = useState({
     incomeText: "",
-    incomeAmount: 0,
+    incomeAmount: 5,
   });
 
   const { incomeText, incomeAmount } = income;
@@ -30,7 +30,7 @@ const AddTransaction = () => {
 
       setIncome({
         incomeText: "",
-        incomeAmount: 45,
+        incomeAmount: 55,
       });
     }
   };
@@ -60,7 +60,7 @@ const AddTransaction = () => {
 
       setExpense({
         expenseText: "",
-        expenseAmount: 0,
+        expenseAmount: 2,
       });
     }
   };
